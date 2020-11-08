@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+/* 
+div{
+    margin-top: 10px;
+} */
+
+p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+@font-face {
+    font-family: "Capture";
+    src: url("./Captureit.ttf");
+}
+
+span{
+    font-family: "Capture";
+    font-size: 40px;
+    color: rgb(250, 252, 132);
+}
+
+label{
+    font-family: "Capture";
+    font-size: 20px;
+
+}
+
+#inputFilm{
+    width: 700px;
+}
+
+#btn:hover{
+    color: rgb(250, 252, 132);
+}
+
+
+#div-enredo{
+    margin: auto;
+    align-items: center;
+    width: 60%;
+}
+
+#div-poster{
+    margin-top: 20px;
+}
+
+#div-titulo{
+    margin-top: 40px;
+}
+
+#conteudo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+    /* background-color: rgb(36, 35, 35); */
+    color: wheat;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#poster{
+    padding: 5px;
+    background-color: rgb(250, 252, 132);
+    border-radius: 2px;
+}
+
+
+footer{
+    margin-top: 20px;
+} 
