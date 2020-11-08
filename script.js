@@ -5,7 +5,7 @@ function consulta(){
     // precisamos fazer uma requisição ao servidor
     let req = new XMLHttpRequest();
     // precisamos definir o local da API
-    let url = `http://www.omdbapi.com/?apikey=58bdcfc9&t=${film}`;
+    let url = `https://www.omdbapi.com/?apikey=58bdcfc9&t=${film}`;
     // vamos usar o método GET para fazer a requisição
     req.open("GET", url, true); // true porque será uma solicitação aassíncrona
     // vamos enviar a requisição
