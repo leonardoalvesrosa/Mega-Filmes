@@ -44,11 +44,26 @@ label{
 }
 
 #inputFilm{
-    width: 60%;
+    width: 80%;
+}
+
+#film{
+    height: 50px;
+}
+
+#teste{
+    padding: 5px;
+    text-align: center;
+    width: 40px;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
 }
 
 #btn:hover{
-    color: rgb(250, 252, 132);
+    color: #DCAE70;
+    background-color: #242323;
+    transition: 0.2s;
 }
 
 
@@ -87,3 +102,42 @@ label{
 footer{
     margin-top: 20px;
 } 
+
+
+
+
+
+
+
+/*all devices (landscape phones, 576px and up)*/
+@media (min-width: 500px) and (max-width: 767.98px) {
+   label, #film{
+       text-align: center;
+       margin-left: 40px;
+   }
+
+   #poster{
+        width: 60%;
+   }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    label, #film{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #poster{
+        width: 60%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+   
+}
