@@ -110,14 +110,14 @@ footer{
 
 
 /*all devices (landscape phones, 576px and up)*/
-@media (min-width: 400px) and (max-width: 767.98px) {
+@media (min-width: 300px) and (max-width: 767.98px) {
    label, #film{
        text-align: center;
-       margin-left: 40px;
+       margin-left: 30px;
    }
 
    #poster{
-        width: 40%;
+        width: 50%;
    }
 }
 
